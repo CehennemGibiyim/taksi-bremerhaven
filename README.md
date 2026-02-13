@@ -1,1 +1,188 @@
-# taksi-vremerhaven
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Fatih ÖZTÜRK | Bremerhaven</title>
+    <style>
+        :root {
+            --taxi-yellow: #f7e100;
+            --dark-grey: #1a1a1a;
+            --green-call: #28a745;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--dark-grey);
+            color: var(--taxi-yellow);
+            padding: 25px 10px;
+            text-align: center;
+            border-bottom: 4px solid var(--taxi-yellow);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .hero-container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .hero-image {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .hero-image h2 { font-size: 2.5rem; margin: 0; }
+
+        .content-card {
+            background: white;
+            max-width: 600px;
+            margin: -40px auto 40px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .call-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--green-call);
+            color: white;
+            padding: 18px 45px;
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: bold;
+            border-radius: 12px;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+
+        .call-button:hover {
+            transform: translateY(-3px);
+            background-color: #218838;
+        }
+
+        .phone-number {
+            display: block;
+            font-size: 1.4rem;
+            color: #222;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Bölge Bilgisi Kutusu */
+        .location-box {
+            background: #fff;
+            border: 2px solid #f0f0f0;
+            display: inline-flex;
+            align-items: center;
+            padding: 15px 30px;
+            border-radius: 50px;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .services {
+            padding: 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .services li {
+            background: #eee;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            background: var(--dark-grey);
+            color: #888;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TAXI FATİH ÖZTÜRK</h1>
+        <p>Zuverlässig • Sicher • Pünktlich</p>
+    </header>
+
+    <div class="hero-container">
+        <div class="hero-image">
+            <h2>Immer für Sie da!</h2>
+            <p>Ihr Taxi-Service in Bremerhaven</p>
+        </div>
+    </div>
+
+    <div class="content-card">
+        <h3>Ihr Anruf genügt!</h3>
+        
+        <a href="tel:015258137121" class="call-button">
+            📞 JETZT RUFEN
+        </a>
+
+        <span class="phone-number">015258137121</span>
+
+        <div class="location-box">
+            🚕 <span>Ihr Taxi für <strong>Bremerhaven</strong> und Umgebung</span>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>Unsere Leistungen</h3>
+        <ul>
+            <li>✓ Stadtfahrten</li>
+            <li>✓ Flughafentransfer</li>
+            <li>✓ Krankenfahrten</li>
+            <li>✓ Kurierfahrten</li>
+        </ul>
+        <p>Wir sind 24 Stunden an 7 Tagen die Woche für Sie erreichbar!</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Taxi Fatih ÖZTÜRK. Alle Rechte vorbehalten.
+    </footer>
+
+</body>
+</html>
